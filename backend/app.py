@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "CI/CD Kubernetes Demo Running"}
+    return {"message": "CI/CD pipeline triggered successfully"}
 
 @app.route("/api")
 def api():
