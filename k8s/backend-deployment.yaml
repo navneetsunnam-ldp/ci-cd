@@ -1,6 +1,5 @@
 apiVersion: apps/v1
 kind: Deployment
-
 metadata:
   name: backend-deployment
 
@@ -19,8 +18,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: navneetldp/k8s-backend:v1
+        image: navneetldp/k8s-backend:latest
         imagePullPolicy: Always
-
         ports:
         - containerPort: 5000
