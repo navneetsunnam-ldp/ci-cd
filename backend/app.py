@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "NEW VERSION DEPLOYED"}
+    return {"message": "This is a demonstration"}
 
 @app.route("/api")
 def api():
