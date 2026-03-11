@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: navneetldp/k8s-backend:latest
+        image: navneetldp/k8s-backend:v1
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 5000

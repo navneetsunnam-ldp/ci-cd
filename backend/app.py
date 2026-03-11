@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return {"message": "CI/CD pipeline triggered successfully"}
+    return {"message": "CI/CD pipeline Backend Version v1 deployed"}
 
 @app.route("/api")
 def api():
